@@ -7,4 +7,3 @@
 
 ![plot](images/rubrica_html.png)
 
-Note: não é necessário estruturar as telas extras.
