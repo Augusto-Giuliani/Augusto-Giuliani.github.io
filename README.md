@@ -5,6 +5,6 @@
 
 *Link da rubrica de entrega:* https://ensinoai.com/codes/20221/aula6/entrega.html 
 
-!(images/rubrica_html.png)
+!(../images/rubrica_html.png)
 
 Note: não é necessário estruturar as telas extras.
