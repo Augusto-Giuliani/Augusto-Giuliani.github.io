@@ -1,0 +1,39 @@
+html {
+height : 100%;
+width : 100%;
+}
+    
+body {
+height : 100%;
+width: 100%;
+}
+
+.head-geral {
+border-bottom : 0.3rem solid black;
+height : 10%;
+width : 100%;
+display : flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.head-geral h1 {
+width : 60%;
+font-size: 2rem;
+font-weight: bold;
+text-align: center;
+}
+
+.head-geral a {
+width : 15%;
+height : 80%;
+border-left: 0.1rem solid black;
+border-right: 0.1rem solid black;
+display:flex;
+align-items: center;
+}
+
+.head-geral a img {
+max-width: 100%;
+max-height: 100%;
+}
