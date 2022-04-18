@@ -3,43 +3,49 @@
     <head>
         <title>Agenda</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1">
+        <link rel="stylesheet" href="../CSS(Telas)/reset.css">
+        <link rel="stylesheet" href="../CSS(Telas)/all.css">
+        <link rel="stylesheet" href="../CSS(Telas)/diacalendario.css">
     </head>
     <body>
-        <header>
+        <header class="head-geral">
             <h1>
                 17 DE MARÇO 2022
             </h1>
-            <img src="../images/home_icon.png" alt="Ícone do menu principal" style="width:100px;height:100px">
             <a href="menu.html">
-                Menu Principal
+                <img src="../images/home_icon.png" alt="Ícone do menu principal" style="width:100px;height:100px">
             </a>
-            <img src="../images/return_icon.png" alt="Ícone do retorno" style="width:100px;height:100px">
-            <a href="agenda.html">
-                Voltar
+            <a href="menu.html">
+                <img src="../images/return_icon.png" alt="Ícone do retorno" style="width:100px;height:100px">
             </a>
         </header>
         <main>
             <ul>
                 <li>
-                    <h2>Carlos</h2>
-                    <p>11:00</p>
-                    <p>Cabelo</p>
-                    <p>11976544531</p>
+                    <div>
+                        <h2>Carlos</h2>
+                        <p>11:00</p>
+                        <p>Cabelo</p>
+                        <p>11976544531</p>
+                    </div>
                     <a>
                         <img src="../images/deleteicon.jpg" alt="Exclude" style="width:50px;height:50px">
                     </a>
                 </li>
                 <li>
-                    <h2>José</h2>
-                    <p>13:00</p>
-                    <p>Cabelo e Barba</p>
-                    <p>11936844529</p>
+                    <div>
+                        <h2>José</h2>
+                        <p>13:00</p>
+                        <p>Cabelo e Barba</p>
+                        <p>11936844529</p>
+                    </div>
                     <a>
                         <img src="../images/deleteicon.jpg" alt="Exclude" style="width:50px;height:50px">
                     </a>
                 </li>
             </ul>
-            <a href="addclient.html"><h2>Adicionar Cliente</h2></a>
+            <a href="addclient.html"><h2 id="add">Adicionar Cliente</h2></a>
         </main>
     </body>
 </html>
