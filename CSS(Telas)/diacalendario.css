@@ -13,7 +13,7 @@ align-items: center;
 
 li {
 width : 100%;
-margin-bottom: 1rem;
+margin-bottom: 1.5rem;
 text-align: center;
 display: flex;
 align-items: center;
@@ -34,4 +34,11 @@ margin-bottom: 0.4rem;
 #add {
 width: 100%;
 text-align: center;
+font-size: 1.5rem;
 }
+
+/*
+*{
+    outline: 1px solid red;
+}
+*/
