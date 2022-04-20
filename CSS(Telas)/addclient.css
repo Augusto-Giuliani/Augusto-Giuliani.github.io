@@ -17,6 +17,12 @@ li{
     margin-top: 0.5rem;
 }
 
+img{
+    height: 7rem;
+    width: 8rem;
+}
+
+
 /*
 *{
     outline: 1px solid red;
