@@ -9,7 +9,7 @@ width: 100%;
 }
 
 .head-geral {
-border-bottom : 0.3rem solid black;
+border-bottom : 0.3rem solid #964B00;
 height : 10%;
 width : 100%;
 display : flex;
@@ -40,8 +40,10 @@ max-height: 100%;
 
 h1, h2, h3, h4, h5, a {
 font-family: 'Open Sans', 'Lato', sans-serif;
+color: #663300
 }
 
 p {
 font-family: 'Libre Caslon Text', 'EB Garamond', serif;
+color: #964B00;
 }

@@ -24,6 +24,7 @@ justify-content: space-around;
 li img {
 margin-left: 10%;
 width: 30%;
+
 }
 
 li h2 {
@@ -38,8 +39,3 @@ text-align: center;
 font-size: 1.5rem;
 }
 
-/*
-*{
-    outline: 1px solid red;
-}
-*/
