@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="../CSS(Telas)/reset.css">
         <link rel="stylesheet" href="../CSS(Telas)/all.css">
         <link rel="stylesheet" href="../CSS(Telas)/agenda.css">
+        <script src="../JS/library5.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lato&family=Libre+Caslon+Text&family=Open+Sans&display=swap" rel="stylesheet">
@@ -24,20 +25,13 @@
             </a>
         </header>
         <main>
-            <ul>
-                <li>
-                    <h2>
-                        Nome do Cliente
-                    </h2>
-                    <img src="../images/searchoptions_icon.png" alt="Ícone da busca por usuários" >
-                </li>
-                <li>
-                    <img src="../images/search_icon.png" alt="Ícone da busca" >
-                    <a href="client.html">
-                        Pesquisar
-                    </a>
-                </li>
-            </ul>
+            <h2>
+                Nome do Cliente
+            </h2>
+            <form action="client.html">
+                <input class="client_name" type="text" placeholder="Digite aqui...">
+                <input type="submit" value="Pesquisar">
+            </form> 
         </main>
     </body>
 </html>
