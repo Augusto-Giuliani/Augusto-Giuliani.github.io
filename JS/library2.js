@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', function() {
     h1 = document.querySelector('header h1')
     h1.style.color = '#e6b800'
     h2s = document.querySelectorAll('h2')
-    h2s[0].style.color = '#e6b800'
-    h2s[1].style.color = '#e6b800'
-    h2s[2].style.color = '#e6b800'
+    h2s[0].style.color = '#663300'
+    h2s[1].style.color = '#663300'
+    h2s[2].style.color = '#663300'
     main = document.querySelector('main')
-    main.style.backgroundColor = '#663300'
+    main.style.backgroundColor = '#ffe5cc'
     hair_type = document.querySelector('.hair_type')
     // botar submit
     localStorage.setItem('hair type', hair_type.value)
