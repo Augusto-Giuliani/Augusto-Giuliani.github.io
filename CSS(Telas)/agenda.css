@@ -1,7 +1,14 @@
-main {
+body {
 height : 90%;
 width : 100%;
+background-color : #ffe5cc;
 }
+
+header {
+    background-color : #ffe5cc;
+}
+
+
 
 main img {
 height : 100%;
