@@ -25,3 +25,89 @@ width : 13%;
 color: white;
 }
 
+.center{
+    position: relative;
+    align-items : center;
+    justify-content : center;
+    left: 40%
+
+}
+
+.cente{
+    position: relative;
+    align-items : center;
+    justify-content : center;
+    left: 10%;
+    padding: 3rem;
+    
+}
+
+.meio{
+    position: absolute;
+    right : 41%;
+    font-size: 1.5rem;
+}
+
+.img_lojas{
+    position: relative;
+    left: 10%;
+    padding: 1rem;
+    height: 70%;
+    width: 70%;
+    border-radius: 3rem;
+    outline: 0.25rem solid #964B00;
+    outline-offset: -1rem;
+
+}
+
+.secador{
+    position: relative;
+    left: 10%;
+    padding: 1rem;
+    height: 70%;
+    width: 70%;
+    border-radius: 3rem;
+    outline: 0.25rem solid #964B00;
+    outline-offset: -0.8rem;
+
+
+}
+
+.secador1{
+    position: relative;
+    right: 32%;
+    padding: 1rem;
+    height: 90%;
+    width: 90%;
+    border-radius: 3rem;
+    outline: 0.25rem solid #964B00;
+    outline-offset: -0.8rem;
+}
+
+.psecador{
+    padding: 2rem;
+}
+
+.addcarrinho{
+    position: relative;
+    left: 10%;
+    font-size: 1.5rem;
+}
+
+.addcarrinho1{
+    position: absolute;
+    padding: 1rem;
+    left: 35%;
+    font-size: 1.5rem;
+}
+
+.addcarrinho2{
+    position: absolute;
+    left: 25%;
+    top:60%;
+    font-size: 1.5rem;
+}
+
+/**{
+    outline: 1px solid red;
+}
