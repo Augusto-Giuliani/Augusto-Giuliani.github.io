@@ -10,24 +10,23 @@ document.addEventListener('DOMContentLoaded', function() {
     h2s[2].style.color = '#663300'
     main = document.querySelector('main')
     main.style.backgroundColor = '#ffe5cc'
-    let hair_type = document.querySelector('.hair_type')
-    let hair_size = document.querySelector('.size')
-    let hair_color = document.querySelector('.color')
+    selections = document.querySelectorAll('select')
+    verify = 0
     
     search_icon = document.querySelector('#search') 
 
     search_icon.addEventListener('click',function(event){
-        localStorage.setItem('hair type', hair_type.value)
-        localStorage.setItem('hair size', hair_size.value)
-        localStorage.setItem('hair color', hair_color.value)
-        type = localStorage.getItem('hair type')
-        size = localStorage.getItem('hair size')
-        color = localStorage.getItem('hair color')
-        if (type != 'liso' || size != 'curto' || color != 'loiro'){
+        if (selections[0].value != 3 || selections[1].value != 2 || selections[2].value != 4){
+            if (verify==0){
+                warning = document.createElement('h3')
+                last_li = document.querySelector('.last_li')
+                warning.innerHTML = 'Nenhum resultado encontrado.'
+                warning.style.color = 'red'
+                last_li.appendChild(warning)
+                verify = 1
+            }
             event.preventDefault()
         }
-        // else
-        
     })
     
 })
