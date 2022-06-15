@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     submit.addEventListener('click', function(event) {
         value = text.value
-        if (value != 'josé'){
+        if (value != 'bruno'){
             event.preventDefault()
             if (verify==0){
                 warning = document.createElement('h3')
