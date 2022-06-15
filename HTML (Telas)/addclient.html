@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang = 'pt-BR'>
     <head>
-        <title>Agenda</title>
+        <title>AddClient</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="initial-scale=1">
-        <link rel="stylesheet" href="../CSS(Telas)/reset.css">
-        <link rel="stylesheet" href="../CSS(Telas)/all.css">
-        <link rel="stylesheet" href="../CSS(Telas)/addclient.css">
+        <link rel="stylesheet" href="CSS(Telas)/reset.css">
+        <link rel="stylesheet" href="CSS(Telas)/all.css">
+        <link rel="stylesheet" href="CSS(Telas)/addclient.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lato&family=Libre+Caslon+Text&family=Open+Sans&display=swap" rel="stylesheet">
-        <script src="../JS/agenda.js"></script>
+        <script src="JS/agenda.js"></script>
+        <script src="JS/cliente.js"></script>
     </head>
     <body>
         <header class="head-geral">
@@ -18,10 +19,10 @@
                 ADICIONAR CLIENTE
             </h1>
             <a href="index.html">
-                <img src="../images/home_icon.png" alt="Ícone do menu principal">
+                <img src="images/home_icon.png" alt="Ícone do menu principal">
             </a>
             <a href="diacalendario.html">
-                <img src="../images/return_icon.png" alt="Ícone do retorno">
+                <img src="images/return_icon.png" alt="Ícone do retorno">
             </a>
         </header>
         <main>
@@ -30,38 +31,26 @@
                     <h2>
                         Nome:
                     </h2>
+                    <input type="text" placeholder="Digite aqui seu nome" class="name" required>
                 </li>
                 <li>
                     <h3>
                         Horário:
                     </h3>
-                    <img src="../images/searchoptions_icon.png" alt="Barra de pesquisa" >
+                    <input type="time" id="appt" name="appt" min="08:00" max="18:00" required>
                 </li>
                 <li>
                     <h3>
                         Contato:
                     </h3>
-                    <p>
-                        Telefone: (11) 99999-9999
-                    </p>
-                    <p>
-                        E-mail: xxxx.xxxxxxx@gmail.com
-                    </p>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="telefone">
                 </li>
                 <li>
                     <h3>
                         Serviços:
                     </h3>
-                    <p>
-                        - Cabelo
-                    </p>
-                    <p>
-                        - Barba
-                    </p>
-                    <p>
-                        - Lavagem de Cabelo
-                    </p>
-                    <a class="salvar" href="diacalendario2.html">
+                    <input type="text" placeholder="Cabelo, Barba ou Ambos" class="service" required>
+                    <a class="salvar">
                         <p class="salvar">Salvar</p>
                     </a>
                 </li>

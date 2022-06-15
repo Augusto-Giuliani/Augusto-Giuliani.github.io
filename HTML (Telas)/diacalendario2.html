@@ -4,13 +4,14 @@
         <title>Agenda</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="initial-scale=1">
-        <link rel="stylesheet" href="../CSS(Telas)/reset.css">
-        <link rel="stylesheet" href="../CSS(Telas)/all.css">
-        <link rel="stylesheet" href="../CSS(Telas)/diacalendario.css">
+        <link rel="stylesheet" href="CSS(Telas)/reset.css">
+        <link rel="stylesheet" href="CSS(Telas)/all.css">
+        <link rel="stylesheet" href="CSS(Telas)/diacalendario.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lato&family=Libre+Caslon+Text&family=Open+Sans&display=swap" rel="stylesheet">
-        <script src="../JS/agenda.js"></script>
+        <script src="JS/agenda.js"></script>
+        <script src="JS/cliente.js"></script>
     </head>
     <body>
         <header class="head-geral">
@@ -18,10 +19,10 @@
                 17 DE MARÇO 2022
             </h1>
             <a href="index.html">
-                <img src="../images/home_icon.png" alt="Ícone do menu principal" >
+                <img src="images/home_icon.png" alt="Ícone do menu principal" >
             </a>
             <a href="addclient.html">
-                <img src="../images/return_icon.png" alt="Ícone do retorno" >
+                <img src="images/return_icon.png" alt="Ícone do retorno" >
             </a>
         </header>
         <main>
@@ -34,18 +35,18 @@
                         <p>(11) 97654-4531</p>
                     </div>
                     <a>
-                        <img src="../images/deleteicon.jpg" alt="Exclude" >
+                        <img src="images/deleteicon.jpg" alt="Exclude" >
                     </a>
                 </li>
-                <li>
+                <li class="baze">
                     <div>
                         <h2>José</h2>
-                        <p>13:00</p>
-                        <p>Cabelo e Barba</p>
-                        <p>(11) 93684-4529</p>
+                        <p class="timet">13:00</p>
+                        <p class="cabelin">Cabelo e Barba</p>
+                        <p class="celulin">(11) 93684-4529</p>
                     </div>
                     <a>
-                        <img src="../images/deleteicon.jpg" alt="Exclude" >
+                        <img src="images/deleteicon.jpg" alt="Exclude" >
                     </a>
                 </li>
                 <li>
@@ -56,7 +57,7 @@
                         <p>(11) 93456-5589</p>
                     </div>
                     <a>
-                        <img src="../images/deleteicon.jpg" alt="Exclude" >
+                        <img src="images/deleteicon.jpg" alt="Exclude" >
                     </a>
                 </li>
             </ul>
