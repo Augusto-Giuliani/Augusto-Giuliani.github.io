@@ -29,6 +29,17 @@ function aulou(name_input,time_input,tel_input,service_input)
     listaza.append(tipin)
 }
 
+function del_tipin()
+{
+    tipo = document.querySelectorAll("li")
+    console.log(tipo[2])
+    tipo[2].parentNode.removeChild(tipo[2])
+    localStorage.removeItem("k1")
+    localStorage.removeItem("k2")
+    localStorage.removeItem("k3")
+    localStorage.removeItem("k4")
+}
+
 document.addEventListener('DOMContentLoaded', function() {
 
     if (document.body.textContent.includes("Salvar")) {
@@ -45,7 +56,10 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log(localStorage.getItem("k2"))
     console.log(localStorage.getItem("k3"))
     console.log(localStorage.getItem("k4"))
-    aulou(localStorage.getItem("k1"),localStorage.getItem("k2"),localStorage.getItem("k3"),localStorage.getItem("k4"))
+    if (localStorage.getItem("k1"))
+    {aulou(localStorage.getItem("k1"),localStorage.getItem("k2"),localStorage.getItem("k3"),localStorage.getItem("k4"))}
+    header = document.querySelector("header")
+    header.addEventListener('click', function(){del_tipin()})
     }
 
 })
